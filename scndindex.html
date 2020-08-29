@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>First HTML Page</title>
+<link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="firstP">
+    <img src="firstPagepic2.png">
+</div>
+
+<div class="firstButton" id="divToChange">
+    <input type="button" value="My linkedin" href="javascript:void" onclick="return fncLink('https://www.linkedin.com/in/omar-r-gebril-843bb5155/');">
+</div>
+
+<script>
+    // https://www.w3schools.com/css/css3_buttons.asp
+    // w3 schools link for buttons
+function fncLink(newLocation){
+    //var divo = document.getElementById("divToChange");
+    window.open(newLocation,'_blank');
+    return false;
+    //<input type="button" name="linkToLinkedIn" value="clickLink" onclick="fnclink()">
+}
+</script>
+
+</body>
+</html>
