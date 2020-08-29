@@ -1,0 +1,17 @@
+.firstP{
+    display: block;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.firstButton{
+    margin-top: 10%;
+    margin-left: 47%;
+    color: whitesmoke;
+}
+
+body{
+    background-color: rgb(7, 5, 27);
+
+}
